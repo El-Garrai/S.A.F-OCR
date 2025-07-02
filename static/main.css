@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background-color: #f8f9fa;
+}
+
+.title {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+#resulttext {
+    font-family: Arial, sans-serif;
+    padding-right: 40px; /* Make space for the button */
+}
+
+.result-container {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    left: 5px; /* Adjust as needed for RTL */
+    top: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.copy-button:hover {
+    opacity: 1;
+}
+
+.drop_zone {
+    border: 2px dashed #007bff;
+    border-radius: .25rem;
+    padding: 2rem;
+    transition: background-color .2s ease-in-out;
+}
+
+.drop_zone.is-dragover {
+    background-color: #e9ecef;
+}
+
+#ocr-img, #ocr-pdf {
+    max-height: 400px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
